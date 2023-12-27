@@ -1,0 +1,108 @@
+*{
+	margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.4;
+}
+
+.row{
+   display: flex;
+   flex-direction: row;
+   padding-left: 5vw;
+   justify-content: space-around;
+   
+}
+
+#newArray{
+    margin: 1.5vw;
+   
+}
+
+.newArray{
+    padding: 0px;
+    font-weight: bolder;
+    height: 10vh;
+    width: 5vw;
+    border-radius: 10px;
+}
+
+
+#speed{
+    margin-left: 8px;
+}
+
+
+.sort:hover{
+    font-size: larger;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 3px grey;
+}
+
+.btn:hover{
+    font-size: larger;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 3px grey;
+
+
+}
+
+#input{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.flex-container{
+    margin-top: 25px;
+    display: flex;
+    
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    background: rgb(82, 114, 201);
+    border: 1px solid black;
+    width: 13px;
+    transition: 0.1s all ease;
+    margin: 0.8px;
+}
+
+.header{
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	font-weight: bold;
+	background-color: black;
+	
+	color: white;
+    
+	padding: 1vw 1vw 2vw 1vw;
+    
+	box-shadow: 2px 8px 20px grey;
+
+    
+    width: 100%;
+    margin-left: 0.4vw;
+}
+
+h1{
+    text-align: center;
+	font-size: 3vw;
+	font-family: Pacifico, cursive;
+	font-weight: lighter;
+	
+}
